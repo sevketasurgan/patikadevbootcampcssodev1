@@ -1,0 +1,132 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(110, 133, 112);
+    height: 5vw;
+    border: 10px;
+    border-radius: 3px;
+    padding-top: 1vw;
+}
+
+/* Genel Standart Değerler */
+.font-small {
+    font-size: 1vw;
+}
+
+.font-medium {
+    font-size: 3vw;
+}
+
+.font-large {
+    font-size: 4vw;
+}
+
+#navbar>ul>li {
+    display: inline;
+    position: relative;
+    margin: 1vw;
+
+
+
+}
+
+/*Navbar*/
+
+#navbar>ul {
+    float: right;
+    margin-right: 4vw;
+
+}
+
+#navbar {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#navbar>a {
+
+    font-weight: bold;
+    padding: 1vw;
+
+
+}
+
+#navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+#navbar a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#navbar a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#navbar a:active {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#navbar>ul>li>select {
+    border: 2px solid whitesmoke;
+    outline: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    background: none;
+
+}
+
+.p-align {
+    margin: 3vw;
+
+}
+
+.p-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Urunler Table*/
+th,
+td {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer {
+    background-color: rgb(110, 133, 112);
+    height: 5vw;
+    width: 100%;
+    border: 10px;
+    border-radius: 3px;
+    padding: 1vw;
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.p-desert {
+    width: 50%;
+}
